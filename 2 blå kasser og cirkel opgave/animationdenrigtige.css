@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+div{
+  width: 100px;
+  height: 100px;
+  background: #a8cfd7;
+
+  animation-name: movebox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+
+
+}
+
+
+@keyframes movebox{
+    0%{
+      transform: translateX(0px) translateY(0px);
+
+    }
+    25%{
+      transform: translateX(300px) translateY(0px);
+    }
+    50%{
+      transform: translateX(300px) translateY(300px);
+    }
+    75%{
+      transform: translateX(0px) translateY(300px);
+    }
+    100%{
+      transform: translateX(0px) translateY(0px);
+    }
+}
+
+.div{
+  width: 100px;
+  height: 100px;
+  background: #a8cfd2;
+
+  animation-name: movebox2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes movebox2{
+    0%{
+      transform: translateX(0px) translateY(0px);
+    }
+    25%{
+      transform: translateX(0px) translateY(300px);
+    }
+    50%{
+      transform: translateX(300px) translateY(300px);
+    }
+    75%{
+      transform: translateX(300px) translateY(0px);
+    }
+    100%{
+      transform: translateX(0px) translateY(0px);
+    }
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background: deeppink;
+
+  border-radius: 50%;
+
+
+  animation-name: circle;
+  animation-duration: 3s;
+  animation-iteration-count: 2s;
+
+}
+
+
+
+@keyframes circle{
+
+  0%{
+    transform: translateX(0px) translateY(0px);
+  }
+  25%{
+    transform: translateX(0px) translateY(300px);
+  }
+  50%{
+    transform: translateX(1100px) translateY(300px);
+  }
+  75%{
+    transform: translateX(0px) translateY(0px);
+  }
+  100%{
+    transform: translateX(0px) translateY(0px);
+    }
+  }

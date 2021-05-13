@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+div{
+  width: 100px;
+  height: 100px;
+  background: #a8cfd7;
+
+  /*transition css*/
+  transition-property: width height;
+  transition-duration: 1s;
+  /*transition delay: 1s;*/
+  transition-timing-function: cubic-bezier(.12,.88,1,1.36);
+
+
+
+}
+
+div:hover{
+  width: 200px;
+  height: 200px;
+}

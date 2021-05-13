@@ -1,0 +1,10 @@
+.sprite {
+		width: 500px;
+		height: 500px;
+		background: url('hjerter.png') 0 0 no-repeat;
+		animation: play 1s steps(13) infinite;
+}
+@keyframes play {
+	0%{background-position:0px;}
+   100% { background-position: -6500px; }
+}
